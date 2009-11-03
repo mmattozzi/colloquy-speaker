@@ -14,3 +14,10 @@ to limit the reading to only one room. I took the liberty of speeding up
 the voices a little and removing two of the most annoying ones. 
 
 Unlike Colloquy trunk, this requires 10.5+. 
+
+
+Wouldn't this be better as a plugin?
+Hm, probably... but at least on my mac, plugins have a tendency to just
+crash Colloquy. Also, I noticed that the source had some built in hooks
+to play speech for users in your buddy list so I just expanded on that. 
+Finally, it was more fun to play with the source.
