@@ -1,0 +1,12 @@
+@interface CQPreferencesSwitchCell : UITableViewCell {
+	@protected
+	UILabel *_label;
+	UISwitch *_switchControl;
+}
+@property (nonatomic, copy) NSString *label;
+@property (nonatomic, getter=isOn) BOOL on;
+
+@property (nonatomic, readonly) UISwitch *switchControl;
+
+@property (nonatomic) SEL switchAction;
+@end

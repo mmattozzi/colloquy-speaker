@@ -1,0 +1,16 @@
+This is a 'fork' of Colloquy that reads all the messages in one or all of your
+open chat rooms using Mac's hilarious text-to-speech voices. I use fork in 
+quotations since Colloquy's source isn't on github, it's here:
+
+http://source.colloquy.info/svn/trunk
+
+Based on Resources/BSD License.txt, it appears Colloquy has been released
+under the BSD License, which I have propagated. 
+
+
+To turn on voices, open Colloquy Preferences (Command-,) and check off
+Text to Speech in the Alerts tab. You can supply a room such as "#colloquy" 
+to limit the reading to only one room. I took the liberty of speeding up
+the voices a little and removing two of the most annoying ones. 
+
+Unlike Colloquy trunk, this requires 10.5+. 
